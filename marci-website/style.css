@@ -81,14 +81,16 @@
 }
 
 .navbarhome {
-  display: flex;          /* stays on the left side */
+  display: flex;          
   top: 60;
   left: 0;
-  width: 200px;             /* sidebar width */
-  height: 535px;            /* full vertical height */
+  width: 80%;
+  max-width: 200px;
+  height: 86.75%;             
+              
   background: rgba(0,0,0,0.8);
   display: flex;
-  flex-direction: column;   /* stack items vertically */
+  flex-direction: column;   
   padding: 20px;
 }
 
